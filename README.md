@@ -7,6 +7,7 @@ An object removal from image system using deep learning image segmentation and i
 2. [Source Code](src/)
 3. [Report](object_remove.pdf)
 4. [Results](#results)
+5. [Dependencies](#dependencies)
 
 ## Overview
  Object removal from image involves two separate tasks, object detection and object removal.
@@ -47,5 +48,13 @@ The following are some results of the system. The user selected bounding box is 
   <img src="/img/example2.png" width="1000" />
   <em></em>
 </p>
+
+## Dependencies
+- python3
+- torch
+- torchvision
+- cv2
+- matplotlib
+- numpy
 
 
