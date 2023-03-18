@@ -23,7 +23,8 @@ An object removal from image system using deep learning image segmentation and i
  </p>
 
 ## Results
-The following are some results of the system. We have a green bounding box for the user object selection and the final inpainted results. 
+The following are some results of the system. The user selected bounding box is shown along with the masked image and inpainted final result. 
+
 <p align ="center">
   <img src="/img/example1.png" width="1000" />
   <em></em>
