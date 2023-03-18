@@ -5,7 +5,7 @@ An object removal from image system using deep learning image segmentation and i
 ## Contents
 1. [Overview](#overview)
 2. [Source Code](src/)
-3. [Report](object_remmove.pdf)
+3. [Report](object_remove.pdf)
 4. [Results](#results)
 
 ## Overview
