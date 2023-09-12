@@ -25,7 +25,8 @@ An object removal from image system using deep learning image segmentation and i
 
 ## Usage
 
-The DeepFillv2 model needs pretrained weights from [here](https://drive.google.com/u/0/uc?id=1tvdQRmkphJK7FYveNAKSMWC6K09hJoyt&export=download) provided by [this](https://github.com/nipponjo/deepfillv2-pytorch) repository which is a reimplementation of DeepFillv2 in Pytroch. Code for DeepFillv2 model was borrowed and slightly modified from there.  
+The DeepFillv2 model needs pretrained weights from [here](https://drive.google.com/u/0/uc?id=1L63oBNVgz7xSb_3hGbUdkYW1IuRgMkCa&export=download) provided by [this](https://github.com/nipponjo/deepfillv2-pytorch) repository which is a reimplementation of DeepFillv2 in Pytroch. Code for DeepFillv2 model was borrowed and slightly modified from there.  
+
 
 
 Make sure to put the weights pth file in [src/models/](/src/models/).
@@ -35,6 +36,8 @@ To run on example image,
 ./src/main.py [path of image]
 ```
 When drawing bounding box, press 'r' to clear bounding box and reset image. Once box is drawn press 'c' to continue. 
+
+*Drawing bouding boxes is sometimes slow.
 
 
 ## Results
