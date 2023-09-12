@@ -2,6 +2,7 @@
 import argparse
 import matplotlib.pyplot as plt
 import cv2
+import os
 from objRemove import ObjectRemove
 from models.deepFill import Generator
 from torchvision.models.detection import maskrcnn_resnet50_fpn, MaskRCNN_ResNet50_FPN_Weights
@@ -17,7 +18,9 @@ image_path = args.image
 ######################################################
 #creating Mask-RCNN model and load pretrained weights#
 ######################################################
-deepfill_weights_path = 'models/states_pt_places2.pth'
+for f in os.listdir('src/models'):
+    if f.endswith('.pth'):
+        deepfill_weights_path = os.path.join('src/models', f)
 print("Creating rcnn model")
 weights = MaskRCNN_ResNet50_FPN_Weights.DEFAULT
 transforms = weights.transforms()
